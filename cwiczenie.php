@@ -6,6 +6,8 @@
   <body>
     <center>
       <?php
+        $otlet='<a href="http://otlet.pl" target="_blank">Pan Otlet</a>';
+
         define ("Pole",200);
         printf ("Pole wynosi: ".Pole." cm");
         echo ("<br /><br />");
@@ -42,11 +44,11 @@
         printf ("Wartosc \$d wynosi:<font color=blue>$d</font><br />");
         echo ("<br /><br />");
 
-        
+
       ?>
     </center>
     <footer>
-      <p style="align: center">&copy <?php echo (sqrt((date(Y)))*sqrt((date(Y)))); echo (" $otlet"); ?></p>
+      <h1 style="text-align: center">&copy <?php echo (sqrt((date(Y)))*sqrt((date(Y)))); echo (" $otlet"); ?></h1>
     </footer>
   </body>
 </html>

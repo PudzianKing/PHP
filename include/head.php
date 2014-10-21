@@ -52,6 +52,9 @@
                     <li>
                         <a href="cwiczenie.php">Zad1</a>
                     </li>
+                    <li>
+                        <a href="cwicz2.php">Zad2</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

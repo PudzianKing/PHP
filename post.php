@@ -1,8 +1,7 @@
 <?php
   include 'include/head.php';
 ?>
-
-<form method="post" action="post.php">
+  <form method="post" action="post.php">
     <table>
       <tr>
         <td>Wpisz pierwszą liczbę: </td>

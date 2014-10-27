@@ -58,6 +58,9 @@
                     <li>
                         <a href="lacznosc.php">Łącznosc</a>
                     </li>
+                    <li>
+                        <a href="post.php">$_POST</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

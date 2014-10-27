@@ -55,6 +55,9 @@
                     <li>
                         <a href="cwicz2.php">Zad2</a>
                     </li>
+                    <li>
+                        <a href="lacznosc.php">Łącznosc</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

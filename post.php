@@ -20,12 +20,13 @@
   </form>
 
 <?php
+
   if ($_POST['wylicz'] == 'tak'){
     if ($_POST['liczba1'] == "" AND $_POST['liczba2'] == ""){
       echo ("Wypełnij wszystkie pola formularzu!");
     }
     else{
-      if(!is_numeric($_POST['liczba1'] AND !is_numeric($_POST['liczba2'])){
+      if(!is_numeric($_POST['liczba1']) AND !is_numeric($_POST['liczba2'])){
         echo ("Podane dane nie są liczbami!");
       }
       else {

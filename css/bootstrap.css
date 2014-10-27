@@ -5376,6 +5376,7 @@ button.close {
   overflow: hidden;
 }
 .modal {
+  role="dialog";
   position: fixed;
   top: 0;
   right: 0;

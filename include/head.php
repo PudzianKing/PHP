@@ -32,6 +32,11 @@
 </head>
 
 <body>
+  <?php
+    ini_set('SMTP','myserver');
+    ini_set('smtp_port',25);
+    ini_set("sendmail_from","abc@xyz.com");
+  ?>
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">

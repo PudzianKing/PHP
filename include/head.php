@@ -61,6 +61,9 @@
                     <li>
                         <a href="post.php">$_POST</a>
                     </li>
+                    <li>
+                        <a href="mail.php">mail()</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

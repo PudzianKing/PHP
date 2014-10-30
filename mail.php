@@ -1,9 +1,18 @@
 <?php
   include 'include/head.php';
+
+  $a=$b=10;
+  $a++;$b--;
+  if ($a>$b)
+    echo ("a > b");
+  elseif ($a==$b)
+    echo ("a = b");
+  else
+    echo ("a < b");
 ?>
 
   <form method="post" action="wyslij.php">
-    <table border="1" cellspacing="2" cellpadding="2" style="font-face: Arial">
+    <table class="table">
       <tr>
           <td><strong>Do: </strong></td>
           <td>

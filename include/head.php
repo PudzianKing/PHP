@@ -67,6 +67,9 @@
                         <a href="post.php">$_POST</a>
                     </li>
                     <li>
+                        <a href="get.php">$_GET</a>
+                    </li>
+                    <li>
                         <a href="mail.php">mail()</a>
                     </li>
                 </ul>

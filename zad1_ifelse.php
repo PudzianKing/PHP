@@ -23,12 +23,17 @@
 
   <table class="table">
 <?php
-  $bool=ture;
-  if ( $age < 13 ){
-    echo "siewo23";
-  } else {
-    echo "23siewo";
+  if ( $age == 23 ){
+    echo "jestes siewo";
+  }
+  else {
+      if ( $age < 23 ){
+      echo "jestes za mlody by byc siewo";
     }
+    else {
+      echo "jestes za stary by byc siewo";
+    }
+  }
 ?>
   </table>
 

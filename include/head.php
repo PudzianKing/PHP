@@ -32,11 +32,6 @@
 </head>
 
 <body>
-  <?php
-    ini_set('SMTP','myserver');
-    ini_set('smtp_port',25);
-    ini_set("sendmail_from","abc@xyz.com");
-  ?>
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -49,12 +44,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/PHP">PHP</a>
+                <a class="navbar-brand" href="/php__">PHP</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
+                  <li>
                         <a href="cwiczenie.php">Zad1</a>
                     </li>
                     <li>
@@ -72,6 +67,15 @@
                     <li>
                         <a href="mail.php">mail()</a>
                     </li>
+                    <li>
+                        <a href="switch.php">Switch</a>
+                    </li>
+                    <li>
+                        <a href="petla_post.php">Pętla $POST</a>
+                    </li>
+                    <li>
+                        <a href="za1_ifelse.php">Pętla $POST</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -81,3 +85,6 @@
 
     <!-- Page Content -->
     <div class="container">
+<?php
+include 'include/rcg.php';
+?>
